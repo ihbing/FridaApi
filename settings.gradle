@@ -1,0 +1,3 @@
+include ':fridaapi'
+include ':app'
+rootProject.name = "FridaApi"
