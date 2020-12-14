@@ -40,7 +40,7 @@ publish {
     userOrg = 'ihbing'
     groupId = 'com.ihbing'
     artifactId = 'FridaApi'
-    publishVersion = '0.1.0'
+    publishVersion = '0.1.1'
     desc = 'Frida api on android'
     website = 'https://github.com/ihbing/FridaApi'
 }
