@@ -1,6 +1,4 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'//添加
 
 android {
@@ -8,11 +6,10 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.ihbing.fridaapi"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
-        versionName "1.0"
+        versionName "0.1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -40,7 +37,7 @@ publish {
     userOrg = 'ihbing'
     groupId = 'com.ihbing'
     artifactId = 'FridaApi'
-    publishVersion = '0.1.1'
+    publishVersion = '0.1.2'
     desc = 'Frida api on android'
     website = 'https://github.com/ihbing/FridaApi'
 }
